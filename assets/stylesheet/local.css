@@ -1,0 +1,108 @@
+@media screen and  (max-width:576px) {
+    .slider .textSlider > h5 {
+        top: 30%;
+        font-size: 2rem;
+    }
+    .slider .textSlider > p{
+        top: 36%;
+        font-size: 2rem;
+    }
+    .slider .textSlider > h4{
+        top:50%;
+        font-size: 1rem;
+    }
+   .note > div:nth-of-type(2) >ul>li>a{
+    font-size: 12px;
+    height: 20px;
+   }
+
+   .basketFllower > figure > img{
+
+    width: 220px;
+    height: auto;
+   }
+
+   .basketFllower > figure:nth-of-type(1) > .pic-btn1 > .icons{
+    font-size:15px ;
+   }
+   .basketFllower > figure:nth-of-type(2) > .pic-btn1 > .icons{
+    font-size:15px ;
+   }
+
+}
+/* end sm mobile */
+
+@media screen and  (min-width:578px) {
+      .slider .textSlider > h5 {
+        top: 30%;
+        font-size: 2rem;
+    }
+    .slider .textSlider > p{
+        top: 36%;
+        font-size: 2rem;
+    }
+    .slider .textSlider > h4{
+        top:50%;
+        font-size: 1rem;
+
+
+    }
+
+
+}
+
+/* end big mobile */
+@media screen and  (min-width:768px) {
+      .slider .textSlider > h5 {
+        top: 30%;
+        font-size: 3rem;
+    }
+    .slider .textSlider > p{
+        top: 36%;
+        font-size: 3rem;
+    }
+    .slider .textSlider > h4{
+        top:50%;
+        font-size: 2rem;
+
+
+    }
+
+ 
+
+
+}
+/* end tablet */
+
+@media screen and  (min-width:992px) {
+ 
+.slider .textSlider > h5 {
+        top: 40%;
+        font-size: 6rem;
+    }
+    .slider .textSlider > p{
+        top: 45%;
+        font-size: 5.5rem;
+    }
+    .slider .textSlider > h4{
+        top:70%;
+        font-size: 2rem;
+
+
+    }
+
+}
+
+/* end desctop l  */
+
+@media screen and  (min-width:1200px) {
+    
+}
+
+/* end xl  big desctop*/
+
+@media screen and  (min-width:1400px) {
+    
+}
+
+/* end xxl  very big desctop*/
