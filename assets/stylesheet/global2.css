@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .headTop {
   height: 80px;
   z-index: 99;
@@ -116,6 +120,9 @@
 .note {
   width: 100%;
   height: auto;
+}
+.note > div:nth-of-type(1) {
+  background-color: aqua;
 }
 .note > div:nth-of-type(2) > ul > li {
   position: relative;

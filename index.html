@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="assets/stylesheet/local.css">
     <link rel="stylesheet" href="assets/font/fontello-773866e4/css/fontello.css">
 
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Batota</title>
 </head>
 
@@ -126,29 +126,38 @@
         </div>
         <!-- end slider......... -->
         <div class="row  ">
-            <div onscroll="para()"   class=" FlowesShop col-12    d-flex flex-wrap ">
+            <div onscroll="para()" class=" FlowesShop col-12    d-flex flex-wrap ">
                 <div class="part1   px-2 pt-3   col-lg-6   ">
-                    <figure class="overflow-hidden  position-relative box box1 ">
-                        <img class="col-12  " src="assets/img/gallery/111.jpg" alt="">
-                        <figcaption class=" position-absolute ">Up to 70% Off - Free Shipping</figcaption>
-                        <h3 class="position-absolute">100% satisfaction guarantee</h3>
-                    </figure>
+
+
+                    <div data-aos="fade-right">
+                        <figure class="overflow-hidden  position-relative box box1 ">
+                            <img class="col-12  " src="assets/img/gallery/111.jpg" alt="">
+                            <figcaption class=" position-absolute ">Up to 70% Off - Free Shipping</figcaption>
+                            <h3 class="position-absolute">100% satisfaction guarantee</h3>
+                        </figure>
+                    </div>
                 </div>
 
                 <div class=" part2 col-12  col-lg-6 h-100   ">
                     <div class="row col-12  px-2 pt-3 m-0">
-                        <figure class="col-12 p-0  overflow-hidden position-relative  box ">
-                            <img class="col-12 " src="assets/img/gallery/111 (1).jpg" alt="">
-                            <figcaption class=" position-absolute ">World's <br>
-                                Great Selection</figcaption>
-                            <h3 class="position-absolute">Discover wide range</h3>
-                        </figure>
-                        <figure class=" col-12 overflow-hidden position-relative p-0 box">
-                            <img class="col-12" src="assets/img/gallery/111 (2).jpg" alt="">
-                            <figcaption class=" position-absolute ">Modern <br>
-                                Gardening Products</figcaption>
-                            <h3 class="position-absolute">Best Quality Assured</h3>
-                        </figure>
+
+                        <div data-aos="fade-left">
+                            <figure class="col-12 p-0  overflow-hidden position-relative  box ">
+                                <img class="col-12 " src="assets/img/gallery/111 (1).jpg" alt="">
+                                <figcaption class=" position-absolute ">World's <br>
+                                    Great Selection</figcaption>
+                                <h3 class="position-absolute">Discover wide range</h3>
+                            </figure>
+                        </div>
+                        <div data-aos="fade-left">
+                            <figure class=" col-12 overflow-hidden position-relative p-0 box">
+                                <img class="col-12" src="assets/img/gallery/111 (2).jpg" alt="">
+                                <figcaption class=" position-absolute ">Modern <br>
+                                    Gardening Products</figcaption>
+                                <h3 class="position-absolute">Best Quality Assured</h3>
+                            </figure>
+                        </div>
                     </div>
                 </div>
 
@@ -159,9 +168,12 @@
 
         <div class="row col-12 m-0">
             <section class=" note ">
-                <div class="  row col-12  px-3 justify-content-center">
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    class="  row col-12  px-3 justify-content-center">
+
                     <h2 class="mx-1 align-items-center d-flex w-auto ">Our Products</h2>
                 </div>
+
                 <div>
                     <ul class="row  col-12 pb-3 pt-3 px-3 m-0 justify-content-center ">
                         <li class=" mx-1 align-items-center d-flex w-auto"><a href="">Popular</a></li>
@@ -181,7 +193,7 @@
         <div class="row">
             <section class="basketFllower col-12   d-flex flex-wrap  ">
                 <figure class="col-6  col-md-4  col-lg-3   ">
-                    <div class="pic-btn1 col-12   ">
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="pic-btn1 col-12   ">
                         <img class="img-btn pic1 col-12 p-3" src="assets/img/goldon/product1.jpg" alt="">
 
 
@@ -195,10 +207,12 @@
                         </div>
                     </div>
                     <figcaption class="">
-                        <div class="d-flex justify-content-center  ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                            class="d-flex justify-content-center  ">
                             <a class=" " href="">New Aviator Sunglasses</a>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                            class="d-flex justify-content-center ">
                             <span>
                                 <i class="demo-icon  icon-star-2 text-warning"></i>
                             </span>
@@ -215,11 +229,14 @@
                                 <i class="demo-icon icon-star text-secondary"></i>
                             </span>
                         </div>
-                        <div class="d-flex  justify-content-center     ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                            class="d-flex  justify-content-center">
                             <span class="h5">$7000</span>
                         </div>
                     </figcaption>
-                    <div class="pic-btn1 col-12   ">
+                    <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                        class="pic-btn1 col-12   ">
+
                         <img class="img-btn pic1 col-12 p-3" src="assets/img/goldon/product2.jpg" alt="">
 
 
@@ -233,10 +250,14 @@
                         </div>
                     </div>
                     <figcaption class="">
-                        <div class="d-flex justify-content-center  ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center  ">
+
                             <a class=" " href="">New Aviator Sunglasses</a>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center ">
+
                             <span>
                                 <i class="demo-icon  icon-star-2 text-warning"></i>
                             </span>
@@ -253,7 +274,8 @@
                                 <i class="demo-icon icon-star text-secondary"></i>
                             </span>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center ">
                             <span class="h5">$7000</span>
                         </div>
                     </figcaption>
@@ -261,7 +283,7 @@
                 <!-- ..................................r1............................... -->
 
                 <figure class="col-6 col-md-4  col-lg-3   ">
-                    <div class="pic-btn1 col-12   ">
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="pic-btn1 col-12   ">
                         <img class="img-btn pic1 col-12 p-3" src="assets/img/goldon/product3.jpg" alt="">
 
 
@@ -275,10 +297,13 @@
                         </div>
                     </div>
                     <figcaption class="">
-                        <div class="d-flex justify-content-center  ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center  ">
+
                             <a class=" " href="">New Aviator Sunglasses</a>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center ">
                             <span>
                                 <i class="demo-icon  icon-star-2 text-warning"></i>
                             </span>
@@ -295,11 +320,14 @@
                                 <i class="demo-icon icon-star text-secondary"></i>
                             </span>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center ">
                             <span class="h5">$7000</span>
                         </div>
                     </figcaption>
-                    <div class="pic-btn1 col-12   ">
+                    <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000"
+                        class="pic-btn1 col-12   ">
+
                         <img class="img-btn pic1 col-12 p-3" src="assets/img/goldon/product4.jpg" alt="">
 
 
@@ -313,10 +341,14 @@
                         </div>
                     </div>
                     <figcaption class="">
-                        <div class="d-flex justify-content-center  ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center  ">
+
                             <a class=" " href="">New Aviator Sunglasses</a>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center ">
+
                             <span>
                                 <i class="demo-icon  icon-star-2 text-warning"></i>
                             </span>
@@ -333,7 +365,9 @@
                                 <i class="demo-icon icon-star text-secondary"></i>
                             </span>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center ">
+
                             <span class="h5">$7000</span>
                         </div>
                     </figcaption>
@@ -343,7 +377,7 @@
                 <!-- ...................................r2............................               -->
 
                 <figure class="d-none  d-md-flex flex-wrap  col-md-4  col-lg-3  ">
-                    <div class="pic-btn1 col-12   ">
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="pic-btn1 col-12   ">
                         <img class="img-btn pic1 col-12 p-3" src="assets/img/goldon/product5.jpg" alt="">
 
 
@@ -357,10 +391,14 @@
                         </div>
                     </div>
                     <figcaption class="">
-                        <div class="d-flex justify-content-center  ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center  ">
+
                             <a class=" " href="">New Aviator Sunglasses</a>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center ">
+
                             <span>
                                 <i class="demo-icon  icon-star-2 text-warning"></i>
                             </span>
@@ -377,11 +415,15 @@
                                 <i class="demo-icon icon-star text-secondary"></i>
                             </span>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center ">
+
                             <span class="h5">$7000</span>
                         </div>
                     </figcaption>
-                    <div class="pic-btn1 col-12   ">
+                    <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                        class="pic-btn1 col-12   ">
+
                         <img class="img-btn pic1 col-12 p-3" src="assets/img/goldon/product6.jpg" alt="">
 
 
@@ -395,10 +437,14 @@
                         </div>
                     </div>
                     <figcaption class="">
-                        <div class="d-flex justify-content-center  ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center  ">
+
                             <a class=" " href="">New Aviator Sunglasses</a>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center ">
+
                             <span>
                                 <i class="demo-icon  icon-star-2 text-warning"></i>
                             </span>
@@ -415,7 +461,9 @@
                                 <i class="demo-icon icon-star text-secondary"></i>
                             </span>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center ">
+
                             <span class="h5">$7000</span>
                         </div>
                     </figcaption>
@@ -424,7 +472,8 @@
                 <!-- ..............................r3........................./ -->
 
                 <figure class="d-none  d-md-none  d-lg-flex flex-wrap col-lg-3  ">
-                    <div class="pic-btn1 col-12   ">
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="pic-btn1 col-12   ">
+
                         <img class="img-btn pic1 col-12 p-3" src="assets/img/goldon/product7.jpg" alt="">
 
 
@@ -438,10 +487,14 @@
                         </div>
                     </div>
                     <figcaption class="">
-                        <div class="d-flex justify-content-center  ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center  ">
+
                             <a class=" " href="">New Aviator Sunglasses</a>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center ">
+
                             <span>
                                 <i class="demo-icon  icon-star-2 text-warning"></i>
                             </span>
@@ -458,11 +511,15 @@
                                 <i class="demo-icon icon-star text-secondary"></i>
                             </span>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center ">
+
                             <span class="h5">$7000</span>
                         </div>
                     </figcaption>
-                    <div class="pic-btn1 col-12   ">
+                    <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                        class="pic-btn1 col-12   ">
+
                         <img class="img-btn pic1 col-12 p-3" src="assets/img/goldon/product8.jpg" alt="">
 
 
@@ -476,7 +533,9 @@
                         </div>
                     </div>
                     <figcaption class="">
-                        <div class="d-flex justify-content-center  ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center  ">
+
                             <a class=" " href="">New Aviator Sunglasses</a>
                         </div>
                         <div class="d-flex justify-content-center ">
@@ -496,7 +555,9 @@
                                 <i class="demo-icon icon-star text-secondary"></i>
                             </span>
                         </div>
-                        <div class="d-flex justify-content-center ">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            class="d-flex justify-content-center ">
+
                             <span class="h5">$7000</span>
                         </div>
                     </figcaption>
@@ -515,7 +576,8 @@
                         <a class=" d-flex justify-content-center   href=">
                             <i class=" demo-icon icon-emo-thumbsup "></i>
                         </a>
-                        <div class=" lip col-12 d-flex justify-content-center flex-wrap ">
+                        <div data-aos="zoom-out-right" class=" lip col-12 d-flex justify-content-center flex-wrap ">
+
                             <h4 class="">BIG SAVINGS</h4>
                             <p class=" ">At Vero Eos Et Accusamus Et Iusto Odio Dignissimos Ducimus Qui.</p>
                         </div>
@@ -525,7 +587,8 @@
                         <a class=" d-flex justify-content-center " href="">
                             <i class=" demo-icon icon-train "></i>
                         </a>
-                        <div class=" lip col-12 d-flex justify-content-center flex-wrap ">
+
+                        <div data-aos="zoom-out-right" class=" lip col-12 d-flex justify-content-center flex-wrap ">
                             <h4 class="">BIG SAVINGS</h4>
                             <p class=" ">At Vero Eos Et Accusamus Et Iusto Odio Dignissimos Ducimus Qui.</p>
                         </div>
@@ -535,7 +598,8 @@
                         <a class=" d-flex justify-content-center " href="">
                             <i class=" demo-icon icon-phone "></i>
                         </a>
-                        <div class=" lip col-12 d-flex justify-content-center flex-wrap ">
+
+                        <div data-aos="zoom-out-right" class=" lip col-12 d-flex justify-content-center flex-wrap ">
                             <h4 class="">BIG SAVINGS</h4>
                             <p class=" ">At Vero Eos Et Accusamus Et Iusto Odio Dignissimos Ducimus Qui.</p>
                         </div>
@@ -628,7 +692,8 @@
             </div>
             <section class="basketFllower col-12   d-flex flex-wrap  mb-5 ">
                 <figure class="col-6  col-md-4  col-lg-3   ">
-                    <div class="pic-btn1 col-12   ">
+                    <div data-aos="zoom-in" class="pic-btn1 col-12   ">
+
                         <img class="img-btn pic1 col-12 p-3" src="assets/img/goldon/product1.jpg" alt="">
 
 
@@ -671,7 +736,8 @@
                 <!-- ..................................r1............................... -->
 
                 <figure class="col-6 col-md-4  col-lg-3   ">
-                    <div class="pic-btn1 col-12   ">
+                    <div data-aos="zoom-in" class="pic-btn1 col-12   ">
+
                         <img class="img-btn pic1 col-12 p-3" src="assets/img/goldon/product3.jpg" alt="">
 
 
@@ -716,7 +782,8 @@
                 <!-- ...................................r2............................               -->
 
                 <figure class="d-none  d-md-flex flex-wrap  col-md-4  col-lg-3   ">
-                    <div class="pic-btn1 col-12   ">
+                    <div data-aos="zoom-in-up" class="pic-btn1 col-12   ">
+
                         <img class="img-btn pic1 col-12 p-3" src="assets/img/goldon/product5.jpg" alt="">
 
 
@@ -760,7 +827,8 @@
                 <!-- ..............................r3........................./ -->
 
                 <figure class="d-none  d-md-none  d-lg-flex flex-wrap col-lg-3   ">
-                    <div class="pic-btn1 col-12   ">
+                    <div data-aos="zoom-in-up" class="pic-btn1 col-12">
+
                         <img class="img-btn pic1 col-12 p-3" src="assets/img/goldon/product7.jpg" alt="">
 
 
@@ -807,28 +875,34 @@
         <!-- ...........................................................end basket flower2.... -->
         <div class="row">
             <section class=" col-12  Mark  d-flex justify-content-center  m-0 mb-5">
+
                 <span class="  pe-2">
                     <a href="">
                         <img src="assets/img/mark/brand1.png" alt="">
                     </a>
                 </span>
-                <span class="  pe-2">
-                    <a href="">
-                        <img src="assets/img/mark/brand2.png" alt="">
-                    </a>
-                </span>
+
+                <div data-aos="fade-up" data-aos-duration="3000">
+                    <span class="  pe-2">
+                        <a href="">
+                            <img src="assets/img/mark/brand2.png" alt="">
+                        </a>
+                    </span>
+                </div>
+<div data-aos="fade-up" data-aos-duration="3000">
                 <span class="d-none d-md-flex pe-2 ">
                     <a href="">
                         <img src="assets/img/mark/brand3.png" alt="">
                     </a>
                 </span>
-                <span class="d-none d-lg-flex pe-2 ">
-                    <a href="">
-                        <img src="assets/img/mark/brand5.png" alt="">
-                    </a>
+               </div>
+                    <span class="d-none d-lg-flex pe-2 ">
+                        <a href="">
+                            <img src="assets/img/mark/brand5.png" alt="">
+                        </a>
 
-                </span>
-
+                    </span>
+              
             </section>
         </div>
         <!-- ...................................................mark end... -->
@@ -924,7 +998,7 @@
                     <div>
                         <h4>CONTACT US</h4>
                     </div>
-                    <div class="">Offices Addresss: 218, Drimlend Building Sarthana jakatnaka,
+                    <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500">Offices Addresss: 218, Drimlend Building Sarthana jakatnaka,
                         Surat City Gujarat-395013 INDIA
                         +91 0987-654-321
                         Contact@yourcompany.com
@@ -951,7 +1025,8 @@
                     <div>
                         <h4>CATEGORIES</h4>
                     </div>
-                    <div id="so2" class="col-3">
+                   
+                        <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"id="so2" class="col-3">
                         <a class="d-flex flex-wrap" href="">Perennials</a>
                         <a class="d-flex flex-wrap" href="">House plants</a>
                         <a class="d-flex flex-wrap" href="">Vegetables</a>
@@ -964,7 +1039,8 @@
                     <div>
                         <h4>INFORMATION</h4>
                     </div>
-                    <div id="so3" class="accordion-body">
+                    <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500"id="so3" class="accordion-body">
+                    
                         <a class="d-flex flex-wrap" href="">Specials</a>
                         <a class="d-flex flex-wrap" href="">New Products</a>
                         <a class="d-flex flex-wrap" href="">Best Sellers</a>
@@ -974,17 +1050,18 @@
                     </div>
                 </div>
 
-                <div  class="col-3  p-5">
+                <div class="col-3  p-5">
                     <div>
                         <h4>MY ACCOUNT</h4>
                     </div>
-                    <div id="so4" class="accordion-body">
+                    <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500" id="so4" class="accordion-body">
+                   
                         <a class="d-flex flex-wrap" href="">Checkout</a>
                         <a class="d-flex flex-wrap" href="">My Account</a>
                         <a class="d-flex flex-wrap" href="">My Orders</a>
                         <a class="d-flex flex-wrap" href="">My Credit Slips<a>
-                        <a class="d-flex flex-wrap" href="">My Addresses</a>
-                        <a class="d-flex flex-wrap" href="">My Personal Info</a>
+                                <a class="d-flex flex-wrap" href="">My Addresses</a>
+                                <a class="d-flex flex-wrap" href="">My Personal Info</a>
                     </div>
                 </div>
             </footer>
@@ -992,30 +1069,36 @@
 
     </main>
     <script>
-    let _box = document.querySelectorAll('.box')
-    let arr = []
-    for (i = 1; i < _box.length; i++) {
-        arr.push(_box[i].offsetTop)
-    }
-
-
-    console.log(arr)
-
-    function para() {
-        let _st = document.getElementsByClassName('part1')[0].scrollTop
-
-        if (_st >= arr[0]) {
-            document.querySelector('.box1>figcaption').style.transform = 'translateX(0)'
-        } else {
-            document.querySelector('.box1>figcaption').style.transform = 'translateX(2000px)'
+        let _box = document.querySelectorAll('.box')
+        let arr = []
+        for (i = 1; i < _box.length; i++) {
+            arr.push(_box[i].offsetTop)
         }
-       
-       
-    }
+
+
+        console.log(arr)
+
+        function para() {
+            let _st = document.getElementsByClassName('part1')[0].scrollTop
+
+            if (_st >= arr[0]) {
+                document.querySelector('.box1>figcaption').style.transform = 'translateX(0)'
+            } else {
+                document.querySelector('.box1>figcaption').style.transform = 'translateX(2000px)'
+            }
+
+
+        }
 
 
     </script>
 </body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
     crossorigin="anonymous"></script>
